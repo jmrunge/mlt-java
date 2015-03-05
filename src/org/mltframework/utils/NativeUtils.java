@@ -64,7 +64,7 @@ public class NativeUtils {
  
         // Prepare temporary file
 //        File temp = File.createTempFile(prefix, suffix);
-        File temp = new File("./" + prefix + "." + suffix);
+        File temp = new File("./" + prefix + suffix);
         if (!temp.exists()) {
             temp.createNewFile();
         
