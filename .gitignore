@@ -2,7 +2,6 @@
 /nbproject/private/private.properties
 /nbproject/private/config.properties
 hs_err*
-/build
-/dist
 libmlt*
 nbproject/build-impl.xml
+/target/
