@@ -10,18 +10,14 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
-    <!--build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <includes>
-                        <include>**/*.so</include>
-                    </includes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build-->
+    <distributionManagement>
+        <repository>
+            <id>release-repo</id>
+            <url>https://github.com/jmrunge/maven/raw/master/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>https://github.com/jmrunge/maven/raw/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
