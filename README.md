@@ -5,7 +5,7 @@ This projects aims to simplify development of Java apps using [mlt-framework](ht
 
 It includes all java classes and the native library generated via [SWIG](http://www.swig.org/), and includes two utility classes for loading the native library.
 
-Take a look at the [example class](https://github.com/avcsa/mlt-java/blob/master/src/org/mltframework/test/Play.java) to see how to use it.
+Take a look at the [example class](https://github.com/jmrunge/mlt-java/blob/master/src/main/java/org/mltframework/test/Play.java) to see how to use it.
 
 ## This project is NOT part of the official distribution of [mlt-framework](http://www.mltframework.org/)
 
